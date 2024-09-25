@@ -1,0 +1,66 @@
+$color1:#674188;
+$color2:#C8A1E0;
+$color3:#E2BFD9;
+$color4:#E3A5C7;
+$color5:#ffff;
+
+.Home{
+    width:100%;
+    height:100%;
+    padding: 0px;
+    // background-color: $color4;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   .page{
+    width:70%;
+    height:70vh;
+    box-shadow: 1px 1px 10px 2px #d9bcec;
+    border:2px solid #d9bcec;
+    display:flex;
+    flex-direction: row;
+    .page-div1{
+        width:70%;
+        display:flex;
+        .expenseimg{
+            width:100%;
+           
+        }
+    }
+    .page-div2{
+        width:50%;
+        // background-color:$color2 ;
+        display:flex;
+        justify-content: center;
+       align-items: center;
+       .form{
+        width:90%;
+        height:90%;
+        background:$color2;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       
+        .email{
+            margin:70px;
+            width:80%;
+        }
+        .password{
+            margin:1px;
+            width:80%;
+        }
+       }
+       .loginbutton-div{
+        display:flex;
+        height:8%;
+        margin-top:50px;
+        .signUp{
+            background: none;
+            border:2px solid $color1;
+            background-color:$color1 ;
+        }
+       }
+    }
+   }
+}
